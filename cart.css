@@ -1,0 +1,119 @@
+body {
+    font-family: 'Vazir', Arial, sans-serif;
+    background-color: #f0e6ff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #6a0dad;
+    text-align: center;
+}
+
+#cart-summary {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #6a0dad;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #e67300;
+}
+
+.remove-item {
+    background-color: #ff4d4d;
+}
+
+.remove-item:hover {
+    background-color: #e60000;
+}
+
+#cart-total {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#total-price {
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+#discount-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#discount-code {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#discount-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#order-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#place-order {
+    background-color: #4CAF50;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#place-order:hover {
+    background-color: #45a049;
+}
+
+#qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+
